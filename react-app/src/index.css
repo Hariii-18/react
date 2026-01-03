@@ -1,16 +1,80 @@
-.Card{
-    max-height: 270px;
-    border-radius: 10px;
-    display: inline-block;
-    padding: 20px;
-    border: 1px solid hsla(0, 0%, 0%, 0.1);
-    max-width:fit-content;
-    box-shadow:beige
+*{
+    padding: 10;
+    margin: 10;
+    font-family:sans-serif;
 
 }
-.img1{
-    border-radius: 50%;
-    height:100px;
-    max-width: 60%;
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 40px;
+    background: #f8f8f8;
+    
+}
 
+.navbar p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+    letter-spacing: 1px;
+    margin-right: 600px; /* Add space between p and ul */
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+/* Card Styling */
+.Card {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid hsla(0, 0%, 0%, 0.1);
+    margin: 10px;
+    text-align: center;
+    max-width: 100%;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+
+}
+
+.img1 {
+    /* border-radius: 0%; */
+    max-width: 90%;
+    max-height: fit-content;
+    padding: 10;
+
+}
+.card-Heading{
+    margin: 5px;
+    color: rgb(104, 96, 96);
+}
+.card-p{
+    margin: 3px;
+}
+.price{
+    margin: 3px;
+}
+.rating{
+    margin: 3px;
+}
+
+/* footer styling */
+.footer{
+    text-align: center;
+    color: grey;
 }

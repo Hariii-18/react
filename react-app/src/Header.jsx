@@ -4,12 +4,13 @@ function Header(){
     return(
         <>
         <h1>Welcome to My First React App</h1>
-        <nav>
+        <nav className="navbar">
             <ul>
-                <li>Home</li>
-                <li>home</li>
-                <li>Home</li>
-                <li>About</li>
+                <p>ABC Restaurant</p>
+                <li href="#">Home</li>
+                <li href="#">Menu</li>
+                <li href="#">Contact</li>
+                <li href="#">About</li>
             </ul>
             <hr />
         </nav>

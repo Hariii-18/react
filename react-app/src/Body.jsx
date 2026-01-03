@@ -4,6 +4,13 @@ function Body(){
     return(
         <>
         <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
         </>     
 
     );
